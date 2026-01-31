@@ -82,7 +82,7 @@ export function HelloTriangle(props: { type: "red" | "blue" }) {
       context.present();
     };
     helloTriangle();
-  }, [ref]);
+  }, [ref, isRed]);
 
   return (
     <View style={style.container}>
